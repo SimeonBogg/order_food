@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Beige */
+}
+
+header {
+    background-color: #8b4513; /* Saddle Brown */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.food-item {
+    border: 1px solid #8b4513; /* Saddle Brown */
+    padding: 10px;
+    background-color: #fff8dc; /* Cornsilk */
+}
+
+.food-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity button {
+    background-color: #8b4513; /* Saddle Brown */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantity input {
+    width: 40px;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid #8b4513; /* Saddle Brown */
+    padding: 5px;
+}
+
+footer {
+    background-color: #8b4513; /* Saddle Brown */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering</title>
+    <link rel="stylesheet" href="{% static 'css/default.css' %}">
+
+</head>
+<body>
+    <header>
+        <h1>Order Your Food Here...</h1>
+    </header>
+    <main>
+        <section id="drinks">
+            <h2>Drinks</h2>
+            <div class="food-drink-item">
+                <img src="food_image.jpg" alt="Food Image">
+                <h2>Food Name</h2>
+                <p>Price: $10</p>
+                <div class="quantity">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+            </div>
+            </div>
+           
+        </section>
+        <section id="main-food">
+            <h2>Main Food</h2>
+        </section>
+        <section id="desserts">
+            <h2>Desserts</h2>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Order Food App</p>
+    </footer>
+</body>
+</html>
+
